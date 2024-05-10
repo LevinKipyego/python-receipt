@@ -1,0 +1,37 @@
+
+from tkinter import font
+from PIL import Image, ImageTk
+
+def create_custom_font():
+    # Create a Tkinter window
+   
+
+    # Create a custom font style using tkinter.font
+
+    curlz = font.Font(family="Curlz Mt", size=20, weight="bold", slant="italic")
+    CurNew = font.Font(family="Courier New", size=10, weight="bold", slant="italic")
+    FootLight= font.Font(family="Footlight MT", size=10, weight="bold", slant="italic")
+    gabriola = font.Font(family="Gabriola", size=10, weight="bold", slant="italic")
+    gigi = font.Font(family="gigi", size=10, weight="bold", slant="italic")
+    gaudy = font.Font(family="Goudy Old Style", size=10, weight="bold", slant="italic")
+    
+    # Create a label with the custom font
+    #label = tk.Label(window, text="Custom Font Style", font=custom_font)
+    #label.pack(pady=10)
+
+    # Load an image using Pillow
+    #image = Image.open("qr.png")
+    #image = image.resize((200, 200))  # Resize the image
+
+    # Convert the image to Tkinter-compatible format
+    #photo = ImageTk.PhotoImage(image)
+
+    # Create a label with the image
+    #image_label = tk.Label(window, image=photo)
+    #image_label.pack(pady=10)
+
+    # Start the Tkinter event loop
+    #window.mainloop()
+
+# Call the function to create the custom font example
+create_custom_font()
